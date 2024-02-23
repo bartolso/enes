@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Traductor eñés</title>
+    <title>Traductor español - eñés</title>
     <link rel="stylesheet" href="traductor.css">
 </head>
 <body>
-    <h1>Traductor al eñés</h1>
+    <h1>Traductor español -  eñés</h1>
     <p>Entrada:</p>
     <textarea id="textInput" rows="6" style="width: 100%;"></textarea>
     <br>
-    <button onclick="retrieveText()">Traducir</button>
+    <button onclick="retrieveText()">Traducir (ctrl + Enter)</button>
     <p id="outputBox"></p>
     <hr>
     <h2>¿Qué es el eñés?</h2>
@@ -22,9 +22,18 @@
         <li>La <strong>i</strong> seguida de <strong>ñ</strong> se elimina, excepto en sílabas polivocálicas.</li>
         <li>Se deja la <strong>s</strong> final.</li>
     </ul>
+    <h2>Consideraciones</h2>
+    <h4>Compatibilidad con otros idiomas</h4>
+    <p>El traductor está diseñado para ser usado en español. Si bien las reglas son sencillas y pueden aplicarse a otros idiomas es indispensable separar las palabras por sílabas, asunto un tanto delicado y que solo está programado en español.</p>
+    <h4>Limitaciones</h4>
+    <p>Este traductor no es perfecto:</p>
+    <ul>
+        <li>Las mayúsculas solamente funcionan en la primera letra de las palabras (es decir, "GP" se convertiría a "Gp").</li>
+        <li>Los saltos de línea son omitidos al hacer la traducción</li>
+    </ul>
     <h2>Créditos</h2>
     <ul>
-        <li>Creador del eñés: Aitor</li>
+        <li>Creación del eñés: Aitor</li>
         <li>Creación del traductor: Anton</li>
         <li>Librerías usadas: <a href="https://github.com/nicofrem/silabajs">silabajs</a></li>
     </ul>
