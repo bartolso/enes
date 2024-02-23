@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traductor eñés</title>
+    <link rel="stylesheet" href="traductor.css">
+</head>
+<body>
+    <h1>Traductor al eñés</h1>
+    <p>Entrada:</p>
+    <textarea id="textInput" rows="4" cols="50"></textarea>
+    <br>
+    <button onclick="retrieveText()">Traducir</button>
+    <p id="outputBox"></p>
+    <hr>
+    <h2>¿Qué es el eñés?</h2>
+    <p>bla bla bla</p>
+    <h2>Reglas</h2>
+    <ul>
+        <li>Todas las consonantes y clusters de éstas a <strong>ñ</strong>, excepto la <strong>m</strong>.</li>
+        <li>La <strong>i</strong> seguida de <strong>ñ</strong> se elimina, excepto en sílabas polivocálicas.</li>
+        <li>Se deja la <strong>s</strong> final.</li>
+    </ul>
+    <h2>Créditos</h2>
+    <ul>
+        <li>Creador del eñés: Aitor</li>
+        <li>Creación del traductor: Anton</li>
+        <li>Librerías usadas: <a href="https://github.com/nicofrem/silabajs">silabajs</a></li>
+    </ul>
+
+    <p>Penedès, 2024</p>
+
+    <script src="script.js"></script>
+    <script src="traductor.js"></script>
+    <script src="silabajs.js"></script>
+    
+</body>
+</html>
